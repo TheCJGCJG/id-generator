@@ -24,5 +24,5 @@ exports.generateId = (suffixLength = 16) => {
     characters.push(letter)
   })
 
-  console.log(characters.join(''))
+  return characters.join('')
 }
